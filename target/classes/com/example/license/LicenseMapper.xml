@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.license.LicenseMapper">
+    <insert id="saveLicense" parameterType="java.lang.String">
+        INSERT INTO authentication_key (license_key) VALUES (#{licenseKey})
+    </insert>
+    <select id="verifyLicense" parameterType="java.lang.String" resultType="java.lang.Boolean">
+        SELECT COUNT(*) > 0 FROM authentication_key WHERE license_key = #{licenseKey}
+    </select>
+</mapper>
