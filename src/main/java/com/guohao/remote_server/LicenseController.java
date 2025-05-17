@@ -1,4 +1,4 @@
-package com.guohao.license;
+package com.guohao.remote_server;
 
 import org.springframework.web.bind.annotation.*;
 import java.util.UUID;

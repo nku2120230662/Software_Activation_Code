@@ -1,4 +1,4 @@
-package com.guohao.license;
+package com.guohao.remote_server;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
