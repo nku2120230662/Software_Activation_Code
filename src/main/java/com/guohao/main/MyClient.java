@@ -1,4 +1,4 @@
-package com.example.license;
+package com.guohao.main;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -13,7 +13,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import com.google.gson.reflect.TypeToken;
 
-public class HelloWorldClient {
+public class MyClient {
     private static final String LICENSE_SERVICE_URL = "http://127.0.0.1:8080/api/verify_license";
 
     public static void main(String[] args) {

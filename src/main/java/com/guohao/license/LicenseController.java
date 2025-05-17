@@ -1,4 +1,4 @@
-package com.example.license;
+package com.guohao.license;
 
 import org.springframework.web.bind.annotation.*;
 import java.util.UUID;

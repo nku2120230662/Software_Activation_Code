@@ -1,12 +1,12 @@
-package com.example.license;
+package com.guohao.model;
 
-public class LicenseEntity {
+public class AuthenticationKey {
     private Long id;
     private String licenseKey;
 
-    public LicenseEntity() {}
+    public AuthenticationKey() {}
 
-    public LicenseEntity(String licenseKey) {
+    public AuthenticationKey(String licenseKey) {
         this.licenseKey = licenseKey;
     }
 

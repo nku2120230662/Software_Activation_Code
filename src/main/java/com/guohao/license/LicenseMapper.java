@@ -1,4 +1,4 @@
-package com.example.license;
+package com.guohao.license;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
